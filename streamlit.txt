@@ -1,0 +1,3 @@
+cd C:\Users\darla\OneDrive - Politecnico di Milano\Documenti\GitHub\Energy-Community
+conda activate energy_community
+streamlit run web_app.py

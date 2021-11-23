@@ -1,0 +1,9 @@
+conda create --name energy_community
+
+cd C:\Users\darla\OneDrive - Politecnico di Milano\Documenti\GitHub\Energy-Community
+
+conda env create -f environment.yml
+
+conda env export --no-builds | findstr -v "prefix" > environment.yml
+
+
